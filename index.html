@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Jainam's Fitness.</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+	<style type="text/css">
+		body{
+			margin: 0px;
+			padding: 0px;
+			background: url('img/bg.jfif') ;
+			color: white;
+			font-family: 'Courgette', cursive;
+		}
+		.left{
+			
+	    display: inline-block;
+  /*  border: 0px solid red;*/
+    position: absolute;
+    top: 12px;
+    left: 30px;
+	
+		}
+		.left img{
+			width: 81px;
+			text-align: center;
+		}
+		.left div{
+			text-align: center;
+			line-height: 17px;
+			font-size: 21px;
+		}
+		.mid{
+	/*border: 0px solid blue;*/
+	display: block;
+	width: 36%;
+	margin: 20px auto;
+	top: 30px;
+		}
+		.right{
+			position: absolute;
+			right: 34px;
+			top: 20px;
+			display: inline-block;
+				/*border: 0px solid pink;*/
+				top: 30px;
+		}
+		.navbar{
+			display: inline-block;
+		}
+		.navbar li{
+			display: inline-block;
+				font-size: 22px;
+			
+					}
+		.navbar li a{
+			color: white;
+			text-decoration: none;
+			padding: 30px 10px;
+
+		}
+		.navbar li a:hover,.navbar li a.active{
+			text-decoration: underline;
+			color: #FB2306;
+		}
+		.btn{
+			margin: 0px 9px;
+			background-color: white;
+			color: black;
+			padding: 7px 37px;
+			border: 2px solid blue;
+			border-radius: 10px;
+			font-size: 15px;
+			cursor: pointer;
+			font-family: 'Courgettee', cursive;
+		}
+		.btn:hover{
+			background-color: #887F7F;
+
+		}
+		.container{
+			
+			    border: 2px solid black;
+    margin: 100px 16px;
+    padding: 54px 38px;
+        width: 33%;
+    border-radius: 17px;
+    font-family:  cursive;
+    color:#F85312;
+		}
+		.form-group input{
+		
+font-family:  cursive;
+font-size: 14px;
+text-align: center;
+display: block;
+width: 486px;
+padding: 10px;
+border: 2px solid red;
+margin: 14px auto;
+border-radius: 17px;
+		}
+		.container h2{
+			text-align: center;
+		}
+		.container button{
+			display: block;
+			width: 23%;
+			margin: auto;
+
+		}
+	</style>
+	<body>
+		<header class="header">
+			<div class="left">
+				<img src=" img//gym1.jpg" >
+				<div>Viral's Fitness</div>
+			</div>
+			<div class="mid">
+				
+				<ul class="navbar">
+					<li><a href="#" class="active">Home</a></li>
+					<li><a href="#">About us</a></li>
+					<li><a href="#">Fitness cal</a></li>
+					<li><a href="#">Contact us</a></li>
+					
+				</ul>
+			</div>
+			<div class="right">
+			<button class="btn">Call us Now</button>
+			<button class="btn">Email us</button>
+			</div>
+		</header>
+		<div class="container">
+			<h2> Join the best gym of Mumbai now</h2>
+			<form action="noaction.php">
+				<div class="form-group" >
+					<input type="text" name="" placeholder="Enter Your Name">
+				</div>
+					<div class="form-group" >
+					<input type="text" name="" placeholder="Enter Your Age">
+				</div>
+					<div class="form-group" >
+					<input type="text" name="" placeholder="Enter Your Gender">
+				</div>
+					<div class="form-group" >
+					<input type="text" name="" placeholder="Enter Your Locality">
+				</div>
+				<button class="btn">Submit</button>
+			</form>
+		</div>
+	</body>
+</html>
